@@ -1,0 +1,44 @@
+// ── Prisma Schema — Ellora Event Management ───────────────────────────────────
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ── Inquiry — contact form submissions ───────────────────────────────────────
+model Inquiry {
+  id          String    @id @default(uuid())
+  fullName    String    @map("full_name")
+  phone       String
+  email       String
+  eventType   String    @map("event_type")
+  eventDate   DateTime  @map("event_date")
+  message     String
+  serviceSlug String?   @map("service_slug")  // which service page they came from
+  source      String    @default("website")    // website | service-page | whatsapp
+  status      String    @default("new")        // new | read | replied | closed
+  ipAddress   String?   @map("ip_address")
+  userAgent   String?   @map("user_agent")
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+
+  @@index([status])
+  @@index([createdAt])
+  @@index([email])
+  @@map("inquiries")
+}
+
+// ── Newsletter subscriber ─────────────────────────────────────────────────────
+model Subscriber {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("subscribers")
+}

@@ -14,10 +14,7 @@ const DESTINATIONS: Destination[] = [
     name: "Goa",
     img: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=400&q=80",
   },
-  {
-    name: "Rajasthan",
-    img: "/images/assetimg 1.jpeg",
-  },
+
   {
     name: "Kerala",
     img: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=400&q=80",

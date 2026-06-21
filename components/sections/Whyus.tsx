@@ -46,7 +46,7 @@ export default function WhyUs() {
         style={{ zIndex: 0 }}
       >
         <Image
-          src="/images/Why_us2.jpg"
+          src="/images/why_us2.jpg"
           alt=""
           width={1600}
           height={1000}

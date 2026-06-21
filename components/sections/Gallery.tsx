@@ -47,7 +47,7 @@ const IMGS: {
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1478147427282-58a87a433128?w=900&q=85",
+    src: "/images/stagedecorImg 1.jpg",
     alt: "Stage & lighting decor",
     cat: "stage",
     span: "normal",

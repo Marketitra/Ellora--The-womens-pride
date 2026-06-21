@@ -195,8 +195,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
       "Our décor team works with the finest materials, premium florals, and cutting-edge lighting to transform any space into something extraordinary.",
       "Whether it's a traditional mandap, a contemporary reception stage, or a corporate keynote backdrop — we bring artistry and precision to every setup.",
     ],
-    heroImage:
-      "https://images.unsplash.com/photo-1478147427282-58a87a433128?w=1600&q=90",
+    heroImage: "/images/stagedecorImg 3.jpg",
     gallery: [
       "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=800&q=80",
       "https://images.unsplash.com/photo-1478147427282-58a87a433128?w=800&q=80",

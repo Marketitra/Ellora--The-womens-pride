@@ -11,7 +11,7 @@ const DESTINATIONS = [
   },
   {
     name: "Rajasthan",
-    img: "https://images.unsplash.com/photo-1477587458883-47145ed6979e?w=400&q=80",
+    img: "/images/assetimg 1.jpeg",
   },
   {
     name: "Kerala",

@@ -89,7 +89,7 @@ const IMGS: {
   },
   {
     id: 9,
-    src: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=900&q=85",
+    src: "/images/stagedecorImg 3.jpg",
     alt: "Floral stage arrangement",
     cat: "stage",
     span: "wide",

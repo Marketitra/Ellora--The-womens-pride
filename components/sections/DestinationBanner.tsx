@@ -4,14 +4,19 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Globe, MapPin } from "lucide-react";
 
-const DESTINATIONS = [
+interface Destination {
+  name: string;
+  img: string;
+}
+
+const DESTINATIONS: Destination[] = [
   {
     name: "Goa",
     img: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=400&q=80",
   },
   {
     name: "Rajasthan",
-    src: "/images/assetimg 1.jpeg",
+    img: "/images/assetimg 1.jpeg",
   },
   {
     name: "Kerala",

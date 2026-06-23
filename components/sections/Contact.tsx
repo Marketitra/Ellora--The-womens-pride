@@ -228,7 +228,7 @@ export default function Contact() {
                   <label style={labelStyle}>Phone *</label>
                   <input
                     type="tel"
-                    placeholder="+91 98765 43210"
+                    placeholder="+91 xxxxx xxxxx"
                     value={form.phone}
                     onChange={set("phone")}
                     className="input-field"

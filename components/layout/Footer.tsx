@@ -214,7 +214,7 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col gap-4">
               {[
-                { l: "Email", v: "hello@ellora-events.com" },
+                { l: "Email", v: "ellorathewomenspride754@gmail.com" },
                 { l: "Location", v: "Nagpur, Maharashtra, India" },
               ].map(({ l, v }) => (
                 <div key={l}>

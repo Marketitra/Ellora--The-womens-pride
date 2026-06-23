@@ -36,7 +36,7 @@ const INIT: FormData = {
 
 // ── WhatsApp helper — builds a properly encoded chat link with intro text ──────
 function buildWhatsAppLink(message: string): string {
-  const number = process.env.NEXT_PUBLIC_WA_NUMBER ?? "919876543210";
+  const number = process.env.NEXT_PUBLIC_WA_NUMBER ?? "9881203607";
   return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 }
 

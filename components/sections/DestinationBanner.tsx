@@ -42,7 +42,7 @@ export default function DestinationBanner() {
         style={{
           display: "grid",
           gridTemplateColumns: "1fr 1fr",
-          minHeight: 520,
+          minHeight: 820,
         }}
         className="max-md:!grid-cols-1"
       >

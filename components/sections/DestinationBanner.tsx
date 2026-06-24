@@ -133,7 +133,7 @@ export default function DestinationBanner() {
               marginBottom: "2.5rem",
             }}
           >
-            Ellora specialises in full destination event management — handling
+            Ellora specialises in full destination event management handling
             venue scouting, travel logistics, guest coordination, local vendor
             management, and on-ground execution at any location across India.
           </p>

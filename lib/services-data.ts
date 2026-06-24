@@ -21,7 +21,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
     description:
       "From intimate ceremonies to grand celebrations, we craft weddings that reflect your unique love story with elegance and flawless precision.",
     longDesc: [
-      "Your wedding day is the most significant celebration of your life — and it deserves to be flawless. At Ellora, we take every detail personally, from the first consultation to the final farewell dance.",
+      "Your wedding day is the most significant celebration of your life, and it deserves to be flawless. At Ellora, we take every detail personally, from the first consultation to the final farewell dance.",
       "We work closely with you to understand your vision, your story, and your style. Whether you dream of a grand palatial affair or an intimate garden ceremony, we design and execute every element with meticulous care.",
       "From floral arrangements and stage design to catering coordination and guest management — our team handles it all so you can be fully present in every moment.",
     ],
@@ -90,7 +90,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
       },
       {
         q: "Can we customise the package?",
-        a: "Absolutely. Every wedding we plan is completely bespoke — no two events are alike.",
+        a: "Absolutely. Every wedding we plan is completely bespoke no two events are alike.",
       },
       {
         q: "What is your payment structure?",
@@ -106,7 +106,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
     description:
       "Product launches, annual days, conferences and brand activations executed with professional finesse and seamless coordination.",
     longDesc: [
-      "Corporate events are a reflection of your brand — and first impressions matter. At Ellora, we design corporate experiences that are as polished and impactful as the companies we partner with.",
+      "Corporate events are a reflection of your brand and first impressions matter. At Ellora, we design corporate experiences that are as polished and impactful as the companies we partner with.",
       "From intimate boardroom dinners to large-scale conferences and product launches, we manage every element with precision: venue selection, audio-visual setup, guest registration, catering, and on-site coordination.",
       "Our team understands corporate culture, brand guidelines, and the importance of seamless execution in a professional environment.",
     ],

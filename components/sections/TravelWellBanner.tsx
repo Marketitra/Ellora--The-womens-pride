@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { ArrowRight, Plane, Hotel, Map } from "lucide-react";
 
 const FEATURES = [
@@ -135,7 +135,7 @@ export default function TravelWellBanner() {
             }}
           >
             For destination events, outstation guests, or travel packages tied
-            to your celebration — visit our sister platform{" "}
+            to your celebration, visit our sister platform{" "}
             <strong style={{ color: "var(--ink)", fontWeight: 700 }}>
               TravelWell Delight
             </strong>
@@ -151,7 +151,7 @@ export default function TravelWellBanner() {
             }}
           >
             Book flights, hotels, tour packages, and event travel for your
-            guests — all in one place. Seamlessly integrated with your Ellora
+            guests, all in one place. Seamlessly integrated with your Ellora
             event planning.
           </p>
 
@@ -238,7 +238,13 @@ export default function TravelWellBanner() {
               justifyContent: "center",
             }}
           >
-            <Plane size={18} style={{ color: "rgba(232,25,60,0.7)" }} />
+            <Image
+              src="/images/travel-logo.png"
+              alt="TravelWell Delight"
+              width={50}
+              height={50}
+              style={{ objectFit: "contain" }}
+            />
           </div>
 
           <p
